@@ -17,13 +17,11 @@ function Home() {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center gap-10 p-2">
       <div className="flex flex-col items-center gap-4">
-        <h1 className="font-bold text-3xl sm:text-4xl">React TanStarter</h1>
-        <div className="flex items-center gap-2 max-sm:flex-col">
-          This is an unprotected page:
-          <pre className="rounded-md border bg-card p-1 text-card-foreground">
-            routes/index.tsx
-          </pre>
-        </div>
+        <h1 className="font-bold text-3xl sm:text-4xl">DoubleRep</h1>
+        <p className="text-muted-foreground text-center max-w-md">
+          Track your bodyweight training progress with the proven pull-up progression program.
+          Increase your max by 50-100% in 8 weeks.
+        </p>
       </div>
 
       {user ? (
@@ -66,11 +64,11 @@ function Home() {
         <ThemeToggle />
         <a
           className="text-muted-foreground underline hover:text-foreground"
-          href="https://github.com/melkir/react-tanstarter"
+          href="https://github.com/umarluqman/doublerep"
           rel="noreferrer noopener"
           target="_blank"
         >
-          melkir/react-tanstarter-convex
+          github.com/umarluqman/doublerep
         </a>
       </div>
     </div>
